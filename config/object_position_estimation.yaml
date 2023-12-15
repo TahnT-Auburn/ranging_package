@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    conf_threshold: 0.5
+    nms_threshold: 0.4
+    inp_width: 416 #224
+    inp_height: 416 #224
+    device: "cpu"
+    input_type: "image"
+    input_path: "/home/tahnt/T3_Repos/post_process_packages/ros2_ws/src/ranging_package/data/images/frame1265.jpg"
+    write_output: false
+    output_file: "/home/tahnt/T3_Repos/post_process_packages/ros2_ws/src/ranging_package/output/images/example_output2.jpg"
+    classes_file: "/home/tahnt/T3_Repos/post_process_packages/ros2_ws/src/yolo_toolbox/classes/coco.names"
+    model_configuration: "/home/tahnt/T3_Repos/post_process_packages/ros2_ws/src/yolo_toolbox/cfg/yolov3.cfg"
+    model_weights: "/home/tahnt/T3_Repos/post_process_packages/ros2_ws/src/yolo_toolbox/weights/yolov3.weights"
+    camera_matrix_vector: [2.8669527693619584e+03, 0., 6.40000000000000e+02, 0., 2.8669527693619584e+03, 3.600000000000000e+02, 0., 0., 1.]
+    dist_coeffs:  [ -1.6652509493273235e-01, 9.7738779215728377e-01, 0., 0., 0. ] #[-8.1211078630524319e-02, -1.1874772506987743e+00, 0., 0., 0.]
+    camera_height: 2.27
